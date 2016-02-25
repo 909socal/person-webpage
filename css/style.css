@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: black;
+}
+
+.navbar {
+	height: 60px;
+	background: black;
+}
+
+.navbar a {
+}
+
+.navbar i {
+	height: 600px;
+}
+.navbar-right{
+	font-size: 15px;
+	padding-right: 5px;
+}
+
+.splash {
+	background: url('/images/splash.jpeg') no-repeat bottom center;
+	background-size: cover;
+	height: 678px;
+}
+.center{
+	text-align: center;
+}
+
+.myPhoto{
+	padding-left: 190px;
+}
+
+
