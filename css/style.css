@@ -24,7 +24,7 @@ body {
 }
 
 .splash {
-	background: url('images/splash.jpeg') no-repeat bottom center;
+	background: url('/images/splash.jpeg') no-repeat bottom center;
 	background-size: cover;
 	height: 678px;
 }
