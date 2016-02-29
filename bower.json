@@ -1,0 +1,22 @@
+{
+  "name": "personal-website",
+  "homepage": "https://github.com/909socal/person-webpage",
+  "authors": [
+    "Gurjot Singh <celica09@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "typed.js": "^1.1.1"
+  }
+}

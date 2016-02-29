@@ -1,39 +1,92 @@
-* {
-	margin: 0;
-	padding: 0;
+body{
+   font-family: 'Source Serif Pro', serif;
+
 }
 
-body {
-	background: black;
+
+@media screen and (min-width: 400px) {
+      .about {
+         text-align: center;
+      }
+   }
+
+.text-justify-xs {
+    text-align: justify;
 }
 
-.navbar {
-	height: 60px;
-	background: black;
+@media (min-width: 768px) {
+    .text-justify-sm {
+        text-align:  center;
+    }
 }
 
-.navbar a {
+@media (min-width: @screen-sm-min) {
+
+  .text-sm-center { text-align: center; }
+
 }
 
-.navbar i {
-	height: 600px;
+.text-justify-xs {
+    text-align: center;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .text-justify-sm {
+        text-align: center;
+    }
+}
+.contact{
+   background-color: gray; 
+   color: white;
+   height: 225px;
+}
+
 .navbar-right{
-	font-size: 15px;
-	padding-right: 5px;
+	font-size: 20px;
+	
+}
+
+.myEmail{
+   color: white;
 }
 
 .splash {
-	background: url('../images/splash.jpeg') no-repeat bottom center;
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/splash.jpeg') no-repeat bottom center;
 	background-size: cover;
-	height: 678px;
+	height: 700px;
 }
-.center{
-	text-align: center;
+.title{ 
+   color: white; 
+   font-family: 'Source Serif Pro', serif;
+   font-size: 38px;
+   letter-spacing: -1px;  
+   text-align: center;
+}
+.name{ 
+	font-family: 'Source Serif Pro', serif;
+   font-size: 50px;
+   color: white; 
+   letter-spacing: -1px;  
+   font-weight: 70;
+   padding-top: 150px;
+   text-align: center;
+}
+.laugh{ 
+	font-family: 'Source Serif Pro', serif;
+   font-size: 28px;
+   color: white; 
+   letter-spacing: -1px;  
+  text-align: center;
+   
+ }
+.typing{
+	color: white;
 }
 
-.myPhoto{
-	padding-left: 190px;
+.line{
+	width: 38px;
+	font-weight: 50;
 }
 
 
